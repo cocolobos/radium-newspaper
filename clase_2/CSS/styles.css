@@ -1,3 +1,47 @@
-h1 {
-    color:green;
+body{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    display: block;
+    font-size: 40px;
+    margin: 0 0 5px;
+    padding: 5px 0;
+    line-height: 1.13636;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #262626;
+    font-weight: 700;
+    letter-spacing: -.01em;
+
+}
+.emoji{
+    border-radius: 50%;
+    height: 60px;
+    margin: 5px 10px 5px 0;
+    overflow: hidden;
+    position: relative;
+    width: 60px;
+        
+}
+.metadata{
+    display: inline-block;
+    color: #737373;
+    font-size: 14px;
+    line-height: 15px;
+    margin: auto;
+    
+}
+.line{
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    font-size: .8rem;
+    line-height: 1.5;
+    
 }
