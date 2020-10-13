@@ -6,11 +6,11 @@
     text-decoration: none;
 }
 .container{
+    width: 100%;
     text-align: center;
 }
-img{
-    max-width: 100%;
-    height: auto;
+.php{
+    width: 100%;
 }
 .sub1{
     font-style: italic;
@@ -19,29 +19,10 @@ img{
     color:rgb(102, 102, 102);
     font-weight: 600;
 }
-.name{
-    text-decoration: none;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    color:rgb(0, 0, 0);
-}
-#daytime{
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 12px;
-    color:rgb(0, 0, 0);
-}
-.readding{
-    font-family: TNYAdobeCaslonPro, "Times New Roman", Times, serif;
-    font-size: 21px;
-    font-weight: 400;
-    color: rgb(0,0,0);
-}
 .headline{
     margin-top: 40px;
 }
 .txth{
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -57,10 +38,30 @@ h1{
     font-size: 44.2px;
     color: #000;
 }
-.txtp{
+.name{
+    text-decoration: none;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+.name:hover{
+    text-decoration: underline;
+}
+#daytime{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color:rgb(0, 0, 0);
+}
+.side{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.readding{
+    font-family: TNYAdobeCaslonPro, "Times New Roman", Times, serif;
     font-size: 21px;
+    font-weight: 400;
     color: rgb(0,0,0);
-    font-style: italic;
 }
 .anch{
     color: rgb(0,0,0);
@@ -68,10 +69,6 @@ h1{
 }
 .anch:active{
     text-decoration: none;
-}
-.side{
-    padding-left: 60px;
-    padding-right: 60px;
 }
 .foot{
     display: block;
@@ -85,18 +82,23 @@ h1{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.pic{
-    border-radius: 50%;
-    width: 50%;
-    height: auto;
-}
 .pt1{
     display: inline-block;
     justify-content: center;
     align-self: center;
     margin-bottom: 0px;
 }
+.pic{
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+}
 .pt2{
     display: inline-block;
     text-align: center;   
+}
+.txtp{
+    font-size: 21px;
+    color: rgb(0,0,0);
+    font-style: italic;
 }
